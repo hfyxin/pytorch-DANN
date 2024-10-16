@@ -13,23 +13,14 @@ PyTorch implementation of DANN (Domain-Adversarial Training of Neural Networks)
 ## Getting started
 
 ### Installation
+(Latest torch, revised by Elliot)
+
 Install library versions that are compatible with your environment.
 ```bash
-git clone https://github.com/NaJaeMin92/pytorch-DANN.git
-cd pytorch-DANN
-conda create -n dann python=3.7
+conda create -n dann python=3.8
 conda activate dann
+conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=12.1 -c pytorch -c nvidia
 pip install -r requirements.txt
-
-```
-
-### Recommended configuration
-
-```
-python=3.7
-pytorch=1.12.1
-matplotlib=3.2.2
-sklearn=1.0.2
 ```
 
 ### Usages
